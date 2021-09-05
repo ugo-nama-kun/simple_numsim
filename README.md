@@ -1,6 +1,20 @@
 # Simple Numerival Simulation using Fourth-order Runge-Kutta & Euler Method
 A simplest possible numerical simulator ;)
 
+```python
+def f(x):
+    # Do what you want for v=dx/dt !
+    return v
+
+sim = NumSim(func=f, dt=dt, method="RK4")
+
+x = x_0  # initial vector
+
+for t in range(steps):
+    x = sim.step(x)
+    print(x)  # Boooon!!!!
+```
+
 ![image](https://user-images.githubusercontent.com/1684732/132111605-887ea12f-24d1-436e-b424-7bd8a6015e78.png)
 
 # NBViewer
