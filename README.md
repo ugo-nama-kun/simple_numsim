@@ -1,4 +1,4 @@
-# Simple Numerival Simulation using Fourth-order Runge-Kutta & Euler Method
+# Simple Numerical Simulation using Fourth-order Runge-Kutta & Euler Method
 A simplest possible numerical simulator ;)
 
 ```python
